@@ -1,20 +1,15 @@
 html, body {
+    margin: 0;
+    background-color: #C8EDF4;
+    padding: 0;
+}
 
-
-
-margin:0;
-background-color: #C8EDF4;
-padding:0;
-
-
-
-}  
-a{
+a {
     color: white;
     text-decoration: none;
 }
 
-p{
+p {
     margin: 5px;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
@@ -32,21 +27,18 @@ p{
     height: 100%;
     justify-content: center;
     align-items: center;
-    
+
     font-weight: bold;
-    
-    
 }
-#buttons{
+
+#buttons {
     margin: 10px;
     background-color: #A9E4EF;
     text-align: center;
     border-radius: 5px;
-    
-    
 }
 
-#footer{
+#footer {
     margin: 5px;
     padding: 10px;
     font-family: 'Open Sans', sans-serif;
@@ -64,64 +56,61 @@ p{
 
 /* General button style (reset) */
 .btn {
-	border: none;
-	font-family: inherit;
-	font-size: inherit;
-	color: inherit;
-	background: none;
-	cursor: pointer;
-	padding: 25px 80px;
-	display: inline-block;
-	margin: 15px 30px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 700;
-	outline: none;
-	position: relative;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-    font-family: 'Raleway',sans-serif;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    font-family: 'Raleway', sans-serif;
 }
 
 .btnsmall {
-	border: none;
-	font-family: inherit;
-	font-size: inherit;
-	color: inherit;
-	background: none;
-	cursor: pointer;
-	padding: 5px 20px;
-	display: inline-block;
-	margin: 15px 30px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 700;
-	outline: none;
-	position: relative;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-    font-family: 'Raleway',sans-serif;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 5px 20px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    font-family: 'Raleway', sans-serif;
 }
-
 
 /* Button 1 */
 .btn-1 {
-	border: 3px solid #fff;
-	color: #fff;
+    border: 3px solid #fff;
+    color: #fff;
 }
 
 /* Button 1a */
 .btn-1a:hover,
 .btn-1a:active {
-	color: #0e83cd;
-	background: #fff;
+    color: #0e83cd;
+    background: #fff;
 }
 
-
-
-input{
+input {
     margin: 5px;
     font-family: 'Open Sans', sans-serif;
     color: #A9E4EF;
