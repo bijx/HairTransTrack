@@ -22,22 +22,23 @@
         <div id="logo" style="line-height: 100%;">
             <a href="index.html" onClick="conf()">Hair <br>TransTrack</a>
         </div>
-        <div id="buttons">
+        <div id="buttons" style="text-align: center">
 
             <p>Add Patient</p>
             <form action="" method="post" onsubmit="return FormValidation();" onchange="return FormValidation();">
-                <input id="name" type="text" name="namefield" placeholder="Name">
+                <input id="name" type="text" placeholder="Name">
                 <input id="date" type="date">
-                <input id="address" name="address" placeholder="Address">
-                <input id="phone" name="phone" placeholder="Phone" type="number">
-                <input id="health_concerns" name="address" placeholder="Health Concerns">
-                <input id="medications" name="address" placeholder="Medications">
-                <input id="eContactName" name="address" placeholder="Emergency Contact Name" type="text">
-                <input id="eContactPhone" name="address" placeholder="Emergency Contact Phone" type="number">
-                
+                <input id="address" placeholder="Address">
+                <input id="phone" placeholder="Phone" type="number">
+                <input id="health_concerns" placeholder="Health Concerns">
+                <input id="medications" placeholder="Medications">
+                <input id="eContactName" placeholder="Emergency Contact Name" type="text">
+                <input id="eContactPhone" placeholder="Emergency Contact Phone" type="number">
             </form>
-            <a href="patientinfo.html"><button class="btnsmall btn-1 btn-1a">Add Patient</button></a>
-                <button class="btnsmall btn-1 btn-1a" onClick="conf()">Cancel</button>
+            <a href="patientinfo.html">
+                <button class="btnsmall btn-1 btn-1a">Add Patient</button>
+            </a>
+            <button class="btnsmall btn-1 btn-1a" onClick="conf()">Cancel</button>
             <p id="errorMessage" hidden style="background-color: red;">Please fix your highlighted errors above.</p>
             <br>
 
