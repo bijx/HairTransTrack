@@ -26,12 +26,12 @@
     <body>
     
         <div id="logo" style="line-height: 100%;">
-            <a href="index.html" onClick="conf()">Hair <br>TransTrack</a>
+            <a href="index.html">Hair <br>TransTrack</a>
         </div>
         <div id="buttons">
 
             <p>Patient Info</p>
-            <form action="" method="post" onsubmit="return FormValidation();" onchange="return FormValidation();">
+            <form method="post" onsubmit="return FormValidation();" onchange="return FormValidation();">
                 <input id="name" type="text" name="namefield" placeholder="Name" value="Heather Hutchison">
                 <input id="date" type="date">
                 <input id="address" name="address" placeholder="Address" value="10 Raleway Drive, Ottawa">
@@ -40,9 +40,11 @@
                 <input id="medications" name="address" placeholder="Medications" value="Asprin.">
                 <input id="eContactName" name="address" placeholder="Emergency Contact Name" type="text" value="Blake Westby">
                 <input id="eContactPhone" name="address" placeholder="Emergency Contact Phone" type="number" value="5555555555">
-                <a href="#"><button class="btnsmall btn-1 btn-1a" onclick="clickAlert()" >Save Information</button></a>
-                <button class="btnsmall btn-1 btn-1a" onClick="conf()">Follow Up</button>
+                
+                
             </form>
+            <a href="#"><button class="btnsmall btn-1 btn-1a" onclick="clickAlert()" >Save Information</button></a>
+            <a href="followup.html"><button class="btnsmall btn-1 btn-1a">Follow Up</button></a>
             <p id="errorMessage" hidden style="background-color: red;">Please fix your highlighted errors above.</p>
             <br>
 

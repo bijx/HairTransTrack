@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Follow Up – Hair TransTrack</title>
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="main.css">
+        <script type="text/javascript">
+            function conf()
+            {
+                var con=confirm("Are you sure you want to cancel?");
+                if(con==true){
+                    window.open("patientinfo.html","_self");
+                    
+                    
+                }
+                
+            }
+            function clickAlert() {
+                        alert("User data saved!");
+                    }
+        </script>
+    </head>
+
+    <body>
+    
+        <div id="logo" style="line-height: 100%;">
+            <a href="index.html" onClick="conf()">Hair <br>TransTrack</a>
+        </div>
+        <div id="buttons">
+
+            <p>Patient Follow Up</p>
+            <form action="" method="post" onsubmit="return FormValidation();" onchange="return FormValidation();">
+                <input id="name" type="text" name="namefield" placeholder="Name" value="Heather Hutchison" disabled>
+                <h3>Pain</h3><select>
+                    <option>None</option>
+                    <option>Moderate</option>
+                    <option>Severe</option>
+                </select>
+                <h3>Medication</h3><select>
+                    <option>Tylenol</option>
+                    <option>Oxycodin</option>
+                    <option>Advil</option>
+                </select>
+                <h3>Bleeding <input type="checkbox"></h3>
+                <h3>Scab Formation <input type="checkbox"></h3>
+                
+            </form>
+            <hr>
+            <p>Donor Follow Up</p>
+            <input id="name" type="text" name="namefield" placeholder="Name" value="Blake Westby" >
+            <h3>Pain</h3><select>
+                    <option>None</option>
+                    <option>Moderate</option>
+                    <option>Severe</option>
+                </select>
+                <h3>Bruising</h3><select>
+                    <option>Minor</option>
+                    <option>Major</option>
+                </select>
+                <h3>Bleeding <input type="checkbox"></h3>
+                
+            
+            <p id="errorMessage" hidden style="background-color: red;">Please fix your highlighted errors above.</p>
+            <a href="patientinfo.html"><button class="btnsmall btn-1 btn-1a" onclick="clickAlert()" >Save</button></a>
+                <button class="btnsmall btn-1 btn-1a" onClick="conf()">Cancel</button>
+            <br>
+
+        </div>
+
+        <div id="footer">
+
+            Copyright HYPERSPC 2018
+
+        </div>
+
+    <script src="scripts.js"></script>
+    </body>
+    
+</html>

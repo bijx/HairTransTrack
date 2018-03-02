@@ -17,6 +17,14 @@ p {
     color: white;
 }
 
+h3 {
+    margin: 5px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+
 #logo {
     margin: 5px;
     font-family: 'Open Sans', sans-serif;
