@@ -12,8 +12,14 @@
                 var con=confirm("Are you sure you want to cancel?");
                 if(con==true){
                     window.open("index.html","_self");
+                    
+                    
                 }
+                
             }
+            function clickAlert() {
+                        alert("User data saved!");
+                    }
         </script>
     </head>
 
@@ -34,8 +40,8 @@
                 <input id="medications" name="address" placeholder="Medications" value="Asprin.">
                 <input id="eContactName" name="address" placeholder="Emergency Contact Name" type="text" value="Blake Westby">
                 <input id="eContactPhone" name="address" placeholder="Emergency Contact Phone" type="number" value="5555555555">
-                <a href="#"><button class="btnsmall btn-1 btn-1a">Add Patient</button></a>
-                <button class="btnsmall btn-1 btn-1a" onClick="conf()">Cancel</button>
+                <a href="#"><button class="btnsmall btn-1 btn-1a" onclick="clickAlert()" >Save Information</button></a>
+                <button class="btnsmall btn-1 btn-1a" onClick="conf()">Follow Up</button>
             </form>
             <p id="errorMessage" hidden style="background-color: red;">Please fix your highlighted errors above.</p>
             <br>
